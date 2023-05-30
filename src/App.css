@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.grocery {
+  color: crimson;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: white;
+  border-radius: 15px;
+  background-color:rgb(253, 229, 191);
+background-image: url("349610.jpg");
+
+background-size: 100%;
+  border-color: blue;
+  font-size: 1rem;
+  color: black;
+}
+.main{
+  font-size: 200px;
+  color:black;
+}
+h1{
+  color:black;
+}
+label{
+  color:black;
+}
+ 
+.input1 {
+  border-style: hidden;
+  border-bottom: 1cm;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px ;
+}
+/* .sabji {
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: blue;
+  font-size: 1rem;
+  border-radius: 15px;
+ 
+} */
+.cards{
+  color: red;
+}
+
+
+div{
+  margin: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
